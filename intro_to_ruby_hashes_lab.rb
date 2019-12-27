@@ -59,9 +59,9 @@ def monopoly_with_fourth_tier
       }),
       :names => names_hash = {
         :reading_railroad => {"mortgage_value" => "$100"},
-        :pennsylvania_railroad => penn_hash ={}, 
-        :b_and_o_railroad => b_o_hash ={}, 
-        :shortline_railroad => short_hash ={}
+        :pennsylvania_railroad => {"mortgage_value" => "$200"}, 
+        :b_and_o_railroad => {"mortgage_value" => "$100"}, 
+        :shortline_railroad => {"mortgage_value" => "$100"}
       }
       
     })
